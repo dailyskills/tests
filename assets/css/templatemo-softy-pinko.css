@@ -389,7 +389,7 @@ header
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
-  min-height: 80px;
+  min-height: 50px;
   background: #fff;
 }
 
@@ -400,10 +400,11 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .header-area .main-nav .logo img {
+  margin-top: -25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -424,6 +425,7 @@ header
 }
 
 .header-area .main-nav .nav li {
+  margin-top: -13px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -455,7 +457,7 @@ header
   cursor: pointer;
   display: block;
   position: absolute;
-  top: 23px;
+  top: 10px;
   width: 32px;
   height: 40px;
   text-indent: -9999em;
@@ -588,6 +590,7 @@ header
     margin-left: 30px;
   }
   .header-area .menu-trigger {
+    
     display: block !important;
   }
   .header-area .main-nav {
@@ -719,7 +722,7 @@ welcome
     margin-bottom: 100px;
   }
   .welcome-area .header-text {
-    top: 50% !important;
+    top: 33% !important;
     transform: perspective(1px) translateY(-50%) !important;
     text-align: center;
   }
@@ -765,7 +768,7 @@ features
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .features-small-item:hover .icon {
@@ -831,7 +834,7 @@ features
   .home-feature {
     padding-bottom: 0px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: -430px;
   }
 }
 
@@ -1168,7 +1171,7 @@ footer {
 
 footer .social {
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 1px;
   text-align: center;
 }
 
